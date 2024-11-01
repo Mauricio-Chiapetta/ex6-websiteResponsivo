@@ -1,4 +1,4 @@
-# Nome do Projeto
+# Landing Page , Tech Conference
 
 Este projeto é um site desenvolvido utilizando **React** e **Tailwind CSS**, projetado para oferecer uma experiência de usuário otimizada com funcionalidades modernas e responsivas.
 
