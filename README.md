@@ -14,4 +14,4 @@ Este projeto é um site desenvolvido utilizando **React** e **Tailwind CSS**, pr
 - [Tailwind CSS](https://tailwindcss.com/) - Framework CSS para estilização rápida e eficiente.
 
 ### Link para o website:
-<a>[text](https://techconference-landingpage.vercel.app/)</a>
+<a>[Link](https://techconference-landingpage.vercel.app/)</a>
