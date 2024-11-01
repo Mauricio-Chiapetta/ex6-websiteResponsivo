@@ -3,7 +3,7 @@ import { eventsData } from "../eventsData";
 
 export function Events() {
   return (
-    <div className="grid grid-cols-2 gap-4 grid-rows-4 p-5">
+    <div className="grid grid-cols-1 gap-4 p-5 sm:grid-cols-2 mb-32">
       {eventsData.map((event, index) => (
         <div
           key={index}

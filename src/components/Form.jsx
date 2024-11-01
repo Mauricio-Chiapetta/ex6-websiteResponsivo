@@ -3,14 +3,18 @@ import { Input } from "./input";
 
 export function Form() {
   return (
-    <div className="mb-10">
+    <div className="mb-10 w-full max-w-xs sm:max-w-md">
       <h2 className="font-bold text-xl mb-3">Subscribe to Our Newsletter</h2>
       <p className="text-gray-500 mb-3 dark:text-gray-400">
         Stay updated with the latest event news, speaker announcements, and
         more!
       </p>
-      <form action="#" method="post" className="flex flex-col text-left">
-        <div className="flex flex-col items-left mb-3">
+      <form
+        action="#"
+        method="post"
+        className="flex flex-col text-center w-full sm:text-left"
+      >
+        <div className="flex flex-col sm:items-left mb-3">
           <label for="name" className="font-medium mb-3">
             Full Name
           </label>
@@ -32,7 +36,7 @@ export function Form() {
             type="email"
           />
         </div>
-        <Button type="submit" title="Subscribe" />
+        <Button type="submit" title="Subscribe" className="w-full md:w-36" />
       </form>
     </div>
   );
