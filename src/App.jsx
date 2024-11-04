@@ -10,15 +10,15 @@ import { Button } from "./components/Button";
 function App() {
   return (
     <div className="bg-slate-200 min-h-screen  dark:bg-neutral-800 dark:text-white overflow-hidden">
-      <div className="bg-[linear-gradient(to_top,rgba(0,0,0,0.8),rgba(0,0,0,0)),url(./assets/people.webp)] bg-cover bg-center bg-no-repeat text-white p-64 min-h-screen flex items-center flex-col">
-        <h2 className="font-bold  mb-5 text-4xl">
-          Future Tech Conference 2024
-        </h2>
-        <p className="mb-5 ">
-          Join the loading voices in AI, Cloud Computing, and Web Development
-        </p>
-        <Button title="Register Now" />
-      </div>
+      <div className="bg-[linear-gradient(to_top,rgba(0,0,0,0.8),rgba(0,0,0,0)),url(./assets/people.webp)] bg-cover bg-center bg-no-repeat text-white py-56 min-h-screen flex items-center flex-col w-full sm:w-auto">
+    <h2 className="font-bold mb-5 text-4xl text-center max-w-[90%] sm:max-w-full">
+      Future Tech Conference 2024
+    </h2>
+    <p className="mb-5 text-center max-w-[90%] sm:max-w-full">
+      Join the leading voices in AI, Cloud Computing, and Web Development
+    </p>
+    <Button title="Register Now" />
+  </div>
 
       <div className="flex flex-col items-center text-center">
         <h3 className="font-semibold p-10 text-2xl">Our Speakers</h3>
